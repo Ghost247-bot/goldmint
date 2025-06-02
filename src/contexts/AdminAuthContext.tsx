@@ -49,7 +49,7 @@ export const AdminAuthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
               .from('profiles')
               .select('role')
               .eq('id', session.user.id)
-              .single();
+              .maybeSingle();
 
             if (profileError) {
               console.error('Error fetching admin profile:', profileError);
@@ -92,7 +92,7 @@ export const AdminAuthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
                 .from('profiles')
                 .select('role')
                 .eq('id', session.user.id)
-                .single();
+                .maybeSingle();
 
               if (profileError) {
                 console.error('Error fetching admin profile:', profileError);
@@ -140,7 +140,7 @@ export const AdminAuthProvider: React.FC<{ children: React.ReactNode }> = ({ chi
         .from('profiles')
         .select('role')
         .eq('id', data.user.id)
-        .single();
+        .maybeSingle();
 
       if (profileError) {
         throw new Error('Error checking admin status');
