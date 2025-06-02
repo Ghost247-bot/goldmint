@@ -6,9 +6,8 @@ const LoginPage: React.FC = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
-  const [isLoading, setIsLoading] = useState(false);
   
-  const { login } = useAuth();
+  const { login, isLoading } = useAuth();
   const navigate = useNavigate();
   
   const handleSubmit = async (e: React.FormEvent) => {
@@ -20,16 +19,12 @@ const LoginPage: React.FC = () => {
       return;
     }
     
-    setIsLoading(true);
-    
     try {
       await login(email, password);
       navigate('/account');
     } catch (error: any) {
       setError('Invalid email or password');
       console.error('Login error:', error);
-    } finally {
-      setIsLoading(false);
     }
   };
   
@@ -61,6 +56,7 @@ const LoginPage: React.FC = () => {
                   className="form-input"
                   placeholder="Enter your email"
                   required
+                  disabled={isLoading}
                 />
               </div>
               
@@ -81,6 +77,7 @@ const LoginPage: React.FC = () => {
                   className="form-input"
                   placeholder="Enter your password"
                   required
+                  disabled={isLoading}
                 />
               </div>
               
@@ -89,7 +86,14 @@ const LoginPage: React.FC = () => {
                 className="btn btn-primary w-full"
                 disabled={isLoading}
               >
-                {isLoading ? 'Signing In...' : 'Sign In'}
+                {isLoading ? (
+                  <div className="flex items-center justify-center">
+                    <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin mr-2"></div>
+                    Signing In...
+                  </div>
+                ) : (
+                  'Sign In'
+                )}
               </button>
             </form>
             
