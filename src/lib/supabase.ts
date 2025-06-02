@@ -15,33 +15,31 @@ export const supabase = createClient(supabaseUrl, supabaseAnonKey, {
     storage: {
       getItem: (key) => {
         try {
-          const cookies = document.cookie.split(';');
-          const cookie = cookies.find(c => c.trim().startsWith(`${key}=`));
-          if (!cookie) return null;
-          const value = decodeURIComponent(cookie.split('=')[1]);
-          return value;
+          return JSON.parse(localStorage.getItem(key) || 'null');
         } catch (error) {
-          console.error('Error reading cookie:', error);
+          console.error('Error reading from localStorage:', error);
           return null;
         }
       },
       setItem: (key, value) => {
         try {
-          const encodedValue = encodeURIComponent(value);
-          document.cookie = `${key}=${encodedValue}; path=/; max-age=604800; SameSite=Lax; secure`;
+          localStorage.setItem(key, JSON.stringify(value));
         } catch (error) {
-          console.error('Error setting cookie:', error);
+          console.error('Error writing to localStorage:', error);
         }
       },
       removeItem: (key) => {
         try {
-          document.cookie = `${key}=; path=/; max-age=0; SameSite=Lax; secure`;
+          localStorage.removeItem(key);
         } catch (error) {
-          console.error('Error removing cookie:', error);
+          console.error('Error removing from localStorage:', error);
         }
       },
     },
   },
+  db: {
+    schema: 'public'
+  }
 });
 
 // Auth helpers
@@ -79,7 +77,7 @@ export const getProfile = async (userId: string) => {
     .from('profiles')
     .select('*')
     .eq('id', userId)
-    .single();
+    .maybeSingle();
   
   if (error) throw error;
   return data;
@@ -91,7 +89,7 @@ export const updateProfile = async (userId: string, updates: any) => {
     .update(updates)
     .eq('id', userId)
     .select()
-    .single();
+    .maybeSingle();
   
   if (error) throw error;
   return data;
@@ -113,7 +111,7 @@ export const getProductById = async (id: string) => {
     .from('products')
     .select('*')
     .eq('id', id)
-    .single();
+    .maybeSingle();
   
   if (error) throw error;
   return data;
@@ -176,7 +174,7 @@ export const addPaymentMethod = async (paymentMethod: any) => {
     .from('payment_methods')
     .insert([paymentMethod])
     .select()
-    .single();
+    .maybeSingle();
   
   if (error) throw error;
   return data;

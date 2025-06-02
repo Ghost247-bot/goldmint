@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { Filter, Grid2X2, List, ChevronDown, X } from 'lucide-react';
+import { Filter, Grid2X2, List, ChevronDown } from 'lucide-react';
 import { getCategoryBySlug } from '../data/categories';
 import ProductCard from '../components/product/ProductCard';
 import { Product } from '../types';
@@ -24,6 +24,14 @@ const CategoryPage: React.FC = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
+        setIsLoading(true);
+        setError(null);
+
+        // Verify Supabase URL and key are present
+        if (!import.meta.env.VITE_SUPABASE_URL || !import.meta.env.VITE_SUPABASE_ANON_KEY) {
+          throw new Error('Supabase configuration is missing');
+        }
+
         let query = supabase
           .from('products')
           .select('*');
@@ -61,11 +69,15 @@ const CategoryPage: React.FC = () => {
         
         const { data, error: fetchError } = await query;
         
-        if (fetchError) throw fetchError;
+        if (fetchError) {
+          console.error('Supabase error:', fetchError);
+          throw new Error('Failed to fetch products');
+        }
+
         setProducts(data || []);
       } catch (err) {
-        setError(t('common.error'));
-        console.error('Error:', err);
+        console.error('Error fetching products:', err);
+        setError(err instanceof Error ? err.message : t('common.error'));
       } finally {
         setIsLoading(false);
       }
@@ -103,8 +115,17 @@ const CategoryPage: React.FC = () => {
   if (error) {
     return (
       <div className="pt-24 pb-16 bg-gray-50">
-        <div className="container-custom mx-auto text-center text-red-600">
-          {error}
+        <div className="container-custom mx-auto text-center">
+          <div className="bg-white rounded-lg shadow-elegant p-8">
+            <h2 className="text-xl font-medium text-red-600 mb-4">{t('common.error')}</h2>
+            <p className="text-gray-600 mb-6">{error}</p>
+            <button 
+              onClick={() => window.location.reload()} 
+              className="btn btn-primary"
+            >
+              {t('common.tryAgain')}
+            </button>
+          </div>
         </div>
       </div>
     );
