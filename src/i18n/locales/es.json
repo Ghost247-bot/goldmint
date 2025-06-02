@@ -1,0 +1,281 @@
+{
+  "header": {
+    "search": {
+      "placeholder": "Buscar productos...",
+      "recentSearches": "Búsquedas recientes",
+      "navigate": "Navegar",
+      "select": "Enter para seleccionar",
+      "close": "Esc para cerrar"
+    },
+    "menu": {
+      "gold": "Oro",
+      "goldBars": "Barras de Oro",
+      "goldCoins": "Monedas de Oro",
+      "jewelry": "Joyería",
+      "silver": "Plata",
+      "platinumPalladium": "Platino y Paladio",
+      "goldPrices": "Precios del Oro",
+      "aboutUs": "Sobre Nosotros"
+    },
+    "user": {
+      "myAccount": "Mi Cuenta",
+      "myOrders": "Mis Pedidos",
+      "wishlist": "Lista de Deseos",
+      "signIn": "Iniciar Sesión",
+      "createAccount": "Crear Cuenta",
+      "trackOrder": "Rastrear Pedido",
+      "logOut": "Cerrar Sesión"
+    }
+  },
+  "common": {
+    "home": "Inicio",
+    "back": "Atrás",
+    "goBack": "Volver",
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "noResults": "No se encontraron resultados",
+    "tryAdjustingFilters": "Intente ajustar sus filtros o explore nuestras otras categorías",
+    "backToHome": "Volver al Inicio",
+    "viewDetails": "Ver Detalles",
+    "productImage": "Imagen del Producto",
+    "addToCart": "Agregar al Carrito",
+    "price": "Precio",
+    "quantity": "Cantidad"
+  },
+  "account": {
+    "title": "Mi Cuenta",
+    "menu": {
+      "dashboard": "Panel de Control",
+      "profile": "Mi Perfil",
+      "investments": "Inversiones",
+      "orders": "Mis Pedidos",
+      "wishlist": "Lista de Deseos",
+      "payment": "Métodos de Pago",
+      "addresses": "Direcciones",
+      "security": "Seguridad",
+      "settings": "Configuración de Cuenta",
+      "logout": "Cerrar Sesión"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "GoldMint es su socio de confianza para inversiones en oro premium, ofreciendo una amplia gama de productos de oro, incluyendo barras, monedas y joyería."
+    },
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "about": "Sobre Nosotros",
+      "goldPrices": "Precios del Oro",
+      "contact": "Contáctenos",
+      "blog": "Blog"
+    },
+    "customerService": {
+      "title": "Servicio al Cliente",
+      "faq": "Preguntas Frecuentes",
+      "shipping": "Envío y Entrega",
+      "returns": "Devoluciones y Reembolsos",
+      "privacy": "Política de Privacidad",
+      "terms": "Términos y Condiciones"
+    },
+    "contact": {
+      "title": "Contáctenos",
+      "phone": "+1 (234) 567-890",
+      "email": "info@goldmint.com",
+      "address": "123 Gold Avenue, Suite 100, Nueva York, NY 10001"
+    },
+    "copyright": "Todos los derechos reservados.",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Inversiones Premium en Oro",
+      "subtitle": "Su socio de confianza en metales preciosos desde 2025",
+      "imageAlt": "Fondo de barras de oro",
+      "cta": {
+        "primary": "Explorar Productos",
+        "secondary": "Saber Más"
+      }
+    },
+    "featured": {
+      "title": "Productos Destacados",
+      "subtitle": "Descubra nuestras opciones de inversión en oro más populares",
+      "viewAll": "Ver Todo"
+    },
+    "whyChoose": {
+      "title": "Por Qué Elegir GoldMint",
+      "subtitle": "Proporcionamos inversiones premium en oro con servicio excepcional y seguridad",
+      "features": {
+        "authentic": {
+          "title": "Productos Auténticos",
+          "description": "Todos nuestros productos de oro están certificados como auténticos con pureza verificada"
+        },
+        "delivery": {
+          "title": "Entrega Segura",
+          "description": "Envío completamente asegurado con embalaje discreto y seguimiento"
+        },
+        "payment": {
+          "title": "Pagos Seguros",
+          "description": "Múltiples opciones de pago con seguridad de encriptación avanzada"
+        },
+        "investment": {
+          "title": "Inversión Inteligente",
+          "description": "Orientación experta y análisis del mercado para retornos óptimos"
+        }
+      }
+    },
+    "cta": {
+      "title": "Comience Su Viaje de Inversión en Oro",
+      "subtitle": "Únase a miles de inversores satisfechos que confían en GoldMint",
+      "primary": "Explorar Productos",
+      "secondary": "Contáctenos"
+    },
+    "goldPrice": {
+      "title": "Precio Actual del Oro",
+      "history": "Ver Historial de Precios"
+    },
+    "categories": {
+      "title": "Categorías Destacadas",
+      "subtitle": "Explore nuestras categorías de oro más populares"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Sobre GoldMint",
+      "subtitle": "Su socio de confianza en inversiones premium en oro desde 2025",
+      "imageAlt": "Fondo de barras de oro"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "En GoldMint, nos dedicamos a hacer que la inversión en oro sea accesible, segura y transparente para todos. Combinamos siglos de experiencia en metales preciosos con tecnología moderna para proporcionar a nuestros clientes los mejores productos de oro y oportunidades de inversión."
+    },
+    "values": {
+      "title": "Nuestros Valores Fundamentales",
+      "trust": {
+        "title": "Confianza y Seguridad",
+        "description": "Mantenemos los más altos estándares de seguridad y autenticidad en cada transacción"
+      },
+      "excellence": {
+        "title": "Excelencia",
+        "description": "Nos esforzamos por la excelencia en nuestros productos, servicios y relaciones con los clientes"
+      },
+      "client": {
+        "title": "Enfoque al Cliente",
+        "description": "El éxito y la satisfacción de nuestros clientes están en el centro de todo lo que hacemos"
+      }
+    },
+    "whyChoose": {
+      "title": "Por Qué Elegir GoldMint",
+      "experience": {
+        "title": "20+ Años de Experiencia",
+        "description": "Benefíciese de nuestras décadas de experiencia en el mercado de metales preciosos"
+      },
+      "products": {
+        "title": "Productos Premium",
+        "description": "Acceso a la mejor selección de barras de oro, monedas y productos de inversión"
+      },
+      "pricing": {
+        "title": "Precios Transparentes",
+        "description": "Precios competitivos sin cargos ocultos ni sorpresas"
+      }
+    },
+    "team": {
+      "title": "Nuestro Equipo Directivo",
+      "ceo": {
+        "name": "Michael Anderson",
+        "position": "Director Ejecutivo",
+        "description": "25+ años de experiencia en metales preciosos y mercados financieros"
+      },
+      "coo": {
+        "name": "Sarah Chen",
+        "position": "Directora de Operaciones",
+        "description": "Experta en gestión de cadena de suministro y excelencia operativa"
+      },
+      "cto": {
+        "name": "David Martinez",
+        "position": "Director de Tecnología",
+        "description": "Liderando la innovación en plataformas de inversión digital en oro"
+      }
+    },
+    "cta": {
+      "title": "Comience Su Viaje de Inversión en Oro",
+      "subtitle": "Únase a miles de inversores satisfechos que confían en GoldMint para sus inversiones en metales preciosos",
+      "primary": "Explorar Nuestros Productos",
+      "secondary": "Contáctenos"
+    }
+  },
+  "product": {
+    "specifications": "Especificaciones",
+    "details": "Detalles del Producto",
+    "weight": "Peso",
+    "purity": "Pureza",
+    "dimensions": "Dimensiones",
+    "origin": "Origen",
+    "category": "Categoría",
+    "availability": "Disponibilidad",
+    "inStock": "En Stock",
+    "outOfStock": "Agotado",
+    "description": "Descripción",
+    "certification": "Certificación",
+    "certificationText": "Todos nuestros productos de oro están certificados y vienen con un certificado de autenticidad. Cada producto es probado y verificado por su pureza y peso.",
+    "relatedProducts": "Productos Relacionados",
+    "addToCart": "Agregar al Carrito",
+    "buyNow": "Comprar Ahora"
+  },
+  "categories": {
+    "bars": {
+      "title": "Barras de Oro",
+      "description": "Barras de oro premium en varios tamaños, perfectas para inversión y colección."
+    },
+    "coins": {
+      "title": "Monedas de Oro",
+      "description": "Monedas de oro coleccionables y de grado de inversión de cecas reconocidas mundialmente."
+    },
+    "jewelry": {
+      "title": "Joyería de Oro",
+      "description": "Piezas de joyería de oro exquisitas elaboradas con precisión y elegancia."
+    }
+  },
+  "news": {
+    "title": "Últimas Noticias y Análisis",
+    "subtitle": "Manténgase al día con las últimas noticias, tendencias y análisis del mercado del oro y de GoldMint.",
+    "readMore": "Leer Más",
+    "items": {
+      "1": {
+        "title": "Los precios del oro alcanzan nuevos máximos en 2024",
+        "excerpt": "El precio del oro ha alcanzado un nuevo récord, impulsado por la incertidumbre económica global y una mayor demanda."
+      },
+      "2": {
+        "title": "GoldMint lanza nueva plataforma de inversión",
+        "excerpt": "GoldMint presenta una plataforma moderna para inversores en oro, ofreciendo mayor seguridad y transparencia."
+      },
+      "3": {
+        "title": "Cómo diversificar su portafolio con oro",
+        "excerpt": "Los expertos recomiendan incluir oro en su portafolio de inversión para protegerse contra la inflación y la volatilidad del mercado."
+      },
+      "4": {
+        "title": "Los bancos centrales aumentan reservas de oro",
+        "excerpt": "Los bancos centrales globales han aumentado sus reservas de oro, mostrando confianza en el metal precioso como activo refugio."
+      },
+      "5": {
+        "title": "Aumenta la demanda de joyería de oro en Asia",
+        "excerpt": "La demanda de joyería de oro ha aumentado en los mercados asiáticos, impulsada por festivales culturales y mayores ingresos."
+      },
+      "6": {
+        "title": "Oro vs. Criptomonedas: ¿Cuál es la mejor cobertura?",
+        "excerpt": "Los analistas debaten si el oro o las criptomonedas ofrecen mejor protección contra la inflación y la volatilidad del mercado."
+      },
+      "7": {
+        "title": "GoldMint se asocia con refinería líder",
+        "excerpt": "GoldMint anuncia una nueva asociación con una refinería líder para garantizar productos de la más alta calidad para los inversores."
+      },
+      "8": {
+        "title": "Aumentan las prácticas sostenibles en la minería de oro",
+        "excerpt": "La industria minera de oro está adoptando prácticas más sostenibles para reducir el impacto ambiental y mejorar las relaciones comunitarias."
+      }
+    }
+  }
+} 

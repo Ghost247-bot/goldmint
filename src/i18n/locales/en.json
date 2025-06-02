@@ -1,0 +1,281 @@
+{
+  "header": {
+    "search": {
+      "placeholder": "Search for products...",
+      "recentSearches": "Recent Searches",
+      "navigate": "Navigate",
+      "select": "Enter to select",
+      "close": "Esc to close"
+    },
+    "menu": {
+      "gold": "Gold",
+      "goldBars": "Gold Bars",
+      "goldCoins": "Gold Coins",
+      "jewelry": "Jewelry",
+      "silver": "Silver",
+      "platinumPalladium": "Platinum & Palladium",
+      "goldPrices": "Gold Prices",
+      "aboutUs": "About Us"
+    },
+    "user": {
+      "myAccount": "My Account",
+      "myOrders": "My Orders",
+      "wishlist": "Wishlist",
+      "signIn": "Sign In",
+      "createAccount": "Create Account",
+      "trackOrder": "Track Order",
+      "logOut": "Log Out"
+    }
+  },
+  "common": {
+    "home": "Home",
+    "back": "Back",
+    "goBack": "Go Back",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "noResults": "No Results Found",
+    "tryAdjustingFilters": "Try adjusting your filters or browse our other categories",
+    "backToHome": "Back to Home",
+    "viewDetails": "View Details",
+    "productImage": "Product Image",
+    "addToCart": "Add to Cart",
+    "price": "Price",
+    "quantity": "Quantity"
+  },
+  "account": {
+    "title": "My Account",
+    "menu": {
+      "dashboard": "Dashboard",
+      "profile": "My Profile",
+      "investments": "Investments",
+      "orders": "My Orders",
+      "wishlist": "Wishlist",
+      "payment": "Payment Methods",
+      "addresses": "Addresses",
+      "security": "Security",
+      "settings": "Account Settings",
+      "logout": "Logout"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "GoldMint is your trusted partner for premium gold investments, offering a wide range of gold products including bars, coins, and jewelry."
+    },
+    "quickLinks": {
+      "title": "Quick Links",
+      "about": "About Us",
+      "goldPrices": "Gold Prices",
+      "contact": "Contact Us",
+      "blog": "Blog"
+    },
+    "customerService": {
+      "title": "Customer Service",
+      "faq": "FAQ",
+      "shipping": "Shipping & Delivery",
+      "returns": "Returns & Refunds",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions"
+    },
+    "contact": {
+      "title": "Contact Us",
+      "phone": "+1 (234) 567-890",
+      "email": "info@goldmint.com",
+      "address": "123 Gold Avenue, Suite 100, New York, NY 10001"
+    },
+    "copyright": "All rights reserved.",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Premium Gold Investments",
+      "subtitle": "Your trusted partner in precious metals since 2025",
+      "imageAlt": "Gold bars background",
+      "cta": {
+        "primary": "Explore Products",
+        "secondary": "Learn More"
+      }
+    },
+    "featured": {
+      "title": "Featured Products",
+      "subtitle": "Discover our most popular gold investment options",
+      "viewAll": "View All"
+    },
+    "whyChoose": {
+      "title": "Why Choose GoldMint",
+      "subtitle": "We provide premium gold investments with exceptional service and security",
+      "features": {
+        "authentic": {
+          "title": "Authentic Products",
+          "description": "All our gold products are certified authentic with verified purity"
+        },
+        "delivery": {
+          "title": "Secure Delivery",
+          "description": "Fully insured shipping with discreet packaging and tracking"
+        },
+        "payment": {
+          "title": "Secure Payments",
+          "description": "Multiple payment options with advanced encryption security"
+        },
+        "investment": {
+          "title": "Smart Investment",
+          "description": "Expert guidance and market insights for optimal returns"
+        }
+      }
+    },
+    "cta": {
+      "title": "Start Your Gold Investment Journey",
+      "subtitle": "Join thousands of satisfied investors who trust GoldMint",
+      "primary": "Explore Products",
+      "secondary": "Contact Us"
+    },
+    "goldPrice": {
+      "title": "Current Gold Price",
+      "history": "View Price History"
+    },
+    "categories": {
+      "title": "Featured Categories",
+      "subtitle": "Explore our most popular gold categories"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About GoldMint",
+      "subtitle": "Your trusted partner in premium gold investments since 2025",
+      "imageAlt": "Gold bars background"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "At GoldMint, we're dedicated to making gold investment accessible, secure, and transparent for everyone. We combine centuries of precious metals expertise with modern technology to provide our clients with the finest gold products and investment opportunities."
+    },
+    "values": {
+      "title": "Our Core Values",
+      "trust": {
+        "title": "Trust & Security",
+        "description": "We maintain the highest standards of security and authenticity in every transaction"
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for excellence in our products, services, and customer relationships"
+      },
+      "client": {
+        "title": "Client Focus",
+        "description": "Our clients' success and satisfaction are at the heart of everything we do"
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose GoldMint",
+      "experience": {
+        "title": "20+ Years Experience",
+        "description": "Benefit from our decades of expertise in the precious metals market"
+      },
+      "products": {
+        "title": "Premium Products",
+        "description": "Access to the finest selection of gold bars, coins, and investment products"
+      },
+      "pricing": {
+        "title": "Transparent Pricing",
+        "description": "Competitive prices with no hidden fees or unexpected charges"
+      }
+    },
+    "team": {
+      "title": "Our Leadership Team",
+      "ceo": {
+        "name": "Michael Anderson",
+        "position": "Chief Executive Officer",
+        "description": "25+ years of experience in precious metals and financial markets"
+      },
+      "coo": {
+        "name": "Sarah Chen",
+        "position": "Chief Operations Officer",
+        "description": "Expert in supply chain management and operational excellence"
+      },
+      "cto": {
+        "name": "David Martinez",
+        "position": "Chief Technology Officer",
+        "description": "Leading innovation in digital gold investment platforms"
+      }
+    },
+    "cta": {
+      "title": "Start Your Gold Investment Journey",
+      "subtitle": "Join thousands of satisfied investors who trust GoldMint for their precious metals investments",
+      "primary": "Explore Our Products",
+      "secondary": "Contact Us"
+    }
+  },
+  "product": {
+    "specifications": "Specifications",
+    "details": "Product Details",
+    "weight": "Weight",
+    "purity": "Purity",
+    "dimensions": "Dimensions",
+    "origin": "Origin",
+    "category": "Category",
+    "availability": "Availability",
+    "inStock": "In Stock",
+    "outOfStock": "Out of Stock",
+    "description": "Description",
+    "certification": "Certification",
+    "certificationText": "All our gold products are certified and come with a certificate of authenticity. Each product is tested and verified for its purity and weight.",
+    "relatedProducts": "Related Products",
+    "addToCart": "Add to Cart",
+    "buyNow": "Buy Now"
+  },
+  "categories": {
+    "bars": {
+      "title": "Gold Bars",
+      "description": "Premium gold bars in various sizes, perfect for investment and collection."
+    },
+    "coins": {
+      "title": "Gold Coins",
+      "description": "Collectible and investment-grade gold coins from renowned mints worldwide."
+    },
+    "jewelry": {
+      "title": "Gold Jewelry",
+      "description": "Exquisite gold jewelry pieces crafted with precision and elegance."
+    }
+  },
+  "news": {
+    "title": "Latest News & Insights",
+    "subtitle": "Stay up to date with the latest news, trends, and insights from the gold market and GoldMint.",
+    "readMore": "Read More",
+    "items": {
+      "1": {
+        "title": "Gold Prices Hit New Highs in 2024",
+        "excerpt": "The price of gold has reached a new record, driven by global economic uncertainty and increased demand."
+      },
+      "2": {
+        "title": "GoldMint Launches New Investment Platform",
+        "excerpt": "GoldMint introduces a modern platform for gold investors, offering enhanced security and transparency."
+      },
+      "3": {
+        "title": "How to Diversify Your Portfolio with Gold",
+        "excerpt": "Experts recommend including gold in your investment portfolio to hedge against inflation and market volatility."
+      },
+      "4": {
+        "title": "Central Banks Increase Gold Reserves",
+        "excerpt": "Global central banks have increased their gold reserves, signaling confidence in the precious metal as a safe-haven asset."
+      },
+      "5": {
+        "title": "Gold Jewelry Demand Surges in Asia",
+        "excerpt": "Demand for gold jewelry has surged in Asian markets, driven by cultural festivals and rising incomes."
+      },
+      "6": {
+        "title": "Gold vs. Cryptocurrency: Which is the Better Hedge?",
+        "excerpt": "Analysts debate whether gold or cryptocurrencies offer better protection against inflation and market volatility."
+      },
+      "7": {
+        "title": "GoldMint Partners with Leading Refinery",
+        "excerpt": "GoldMint announces a new partnership with a leading gold refinery to ensure the highest quality products for investors."
+      },
+      "8": {
+        "title": "Sustainable Gold Mining Practices on the Rise",
+        "excerpt": "The gold mining industry is adopting more sustainable practices to reduce environmental impact and improve community relations."
+      }
+    }
+  }
+} 

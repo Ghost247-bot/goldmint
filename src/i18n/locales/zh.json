@@ -1,0 +1,234 @@
+{
+  "header": {
+    "search": {
+      "placeholder": "搜索产品...",
+      "recentSearches": "最近搜索",
+      "navigate": "导航",
+      "select": "回车选择",
+      "close": "Esc关闭"
+    },
+    "menu": {
+      "gold": "黄金",
+      "goldBars": "金条",
+      "goldCoins": "金币",
+      "jewelry": "珠宝",
+      "silver": "白银",
+      "platinumPalladium": "铂金和钯金",
+      "goldPrices": "黄金价格",
+      "aboutUs": "关于我们"
+    },
+    "user": {
+      "myAccount": "我的账户",
+      "myOrders": "我的订单",
+      "wishlist": "收藏夹",
+      "signIn": "登录",
+      "createAccount": "创建账户",
+      "trackOrder": "跟踪订单",
+      "logOut": "退出登录"
+    }
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "发生错误",
+    "noResults": "未找到结果",
+    "viewDetails": "查看详情",
+    "addToCart": "加入购物车",
+    "price": "价格",
+    "quantity": "数量"
+  },
+  "account": {
+    "title": "我的账户",
+    "menu": {
+      "dashboard": "控制面板",
+      "profile": "我的资料",
+      "investments": "投资",
+      "orders": "我的订单",
+      "wishlist": "收藏夹",
+      "payment": "支付方式",
+      "addresses": "地址",
+      "security": "安全",
+      "settings": "账户设置",
+      "logout": "退出登录"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "GoldMint是您值得信赖的优质黄金投资合作伙伴，提供各种黄金产品，包括金条、金币和珠宝。"
+    },
+    "quickLinks": {
+      "title": "快速链接",
+      "about": "关于我们",
+      "goldPrices": "黄金价格",
+      "contact": "联系我们",
+      "blog": "博客"
+    },
+    "customerService": {
+      "title": "客户服务",
+      "faq": "常见问题",
+      "shipping": "配送服务",
+      "returns": "退换货政策",
+      "privacy": "隐私政策",
+      "terms": "条款和条件"
+    },
+    "contact": {
+      "title": "联系我们",
+      "phone": "+1 (234) 567-890",
+      "email": "info@goldmint.com",
+      "address": "纽约州纽约市金街123号100室，邮编10001"
+    },
+    "copyright": "版权所有。",
+    "social": {
+      "facebook": "脸书",
+      "twitter": "推特",
+      "instagram": "照片墙",
+      "linkedin": "领英"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "优质黄金投资",
+      "subtitle": "自2025年以来您值得信赖的贵金属合作伙伴",
+      "imageAlt": "金条背景",
+      "cta": {
+        "primary": "探索产品",
+        "secondary": "了解更多"
+      }
+    },
+    "featured": {
+      "title": "精选产品",
+      "subtitle": "探索我们最受欢迎的黄金投资选择"
+    },
+    "whyChoose": {
+      "title": "为什么选择GoldMint",
+      "subtitle": "我们提供优质黄金投资，配备卓越的服务和安全性",
+      "features": {
+        "authentic": {
+          "title": "正品保证",
+          "description": "我们所有的黄金产品都经过认证，确保纯度和真实性"
+        },
+        "delivery": {
+          "title": "安全配送",
+          "description": "完全保险的配送服务，采用保密包装和全程追踪"
+        },
+        "payment": {
+          "title": "安全支付",
+          "description": "多种支付选择，配备先进的加密安全保护"
+        },
+        "investment": {
+          "title": "智能投资",
+          "description": "专家建议和市场分析，确保最佳投资回报"
+        }
+      }
+    },
+    "cta": {
+      "title": "开启您的黄金投资之旅",
+      "subtitle": "加入数千名信任GoldMint的满意投资者行列",
+      "primary": "探索产品",
+      "secondary": "联系我们"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "关于GoldMint",
+      "subtitle": "自2025年以来您值得信赖的优质黄金投资合作伙伴",
+      "imageAlt": "金条背景"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "description": "在GoldMint，我们致力于让黄金投资对每个人来说都更加便捷、安全和透明。我们将数百年的贵金属专业知识与现代技术相结合，为客户提供最优质的黄金产品和投资机会。"
+    },
+    "values": {
+      "title": "我们的核心价值观",
+      "trust": {
+        "title": "信任与安全",
+        "description": "我们在每笔交易中都坚持最高标准的安全性和真实性"
+      },
+      "excellence": {
+        "title": "追求卓越",
+        "description": "我们在产品、服务和客户关系方面追求卓越"
+      },
+      "client": {
+        "title": "以客户为中心",
+        "description": "客户的成功和满意度是我们一切行动的核心"
+      }
+    },
+    "whyChoose": {
+      "title": "为什么选择GoldMint",
+      "experience": {
+        "title": "20多年经验",
+        "description": "受益于我们在贵金属市场数十年的专业经验"
+      },
+      "products": {
+        "title": "优质产品",
+        "description": "获得最优质的金条、金币和投资产品的选择"
+      },
+      "pricing": {
+        "title": "透明定价",
+        "description": "具有竞争力的价格，无隐藏费用或意外收费"
+      }
+    },
+    "team": {
+      "title": "我们的领导团队",
+      "ceo": {
+        "name": "Michael Anderson",
+        "position": "首席执行官",
+        "description": "25年以上贵金属和金融市场经验"
+      },
+      "coo": {
+        "name": "Sarah Chen",
+        "position": "运营总监",
+        "description": "供应链管理和运营卓越专家"
+      },
+      "cto": {
+        "name": "David Martinez",
+        "position": "技术总监",
+        "description": "数字黄金投资平台创新领导者"
+      }
+    },
+    "cta": {
+      "title": "开启您的黄金投资之旅",
+      "subtitle": "加入数千名信任GoldMint进行贵金属投资的满意投资者行列",
+      "primary": "探索我们的产品",
+      "secondary": "联系我们"
+    }
+  },
+  "news": {
+    "title": "最新新闻与洞察",
+    "subtitle": "随时了解黄金市场和GoldMint的最新新闻、趋势和见解。",
+    "readMore": "阅读更多",
+    "items": {
+      "1": {
+        "title": "2024年黄金价格创下新高",
+        "excerpt": "由于全球经济不确定性和需求增加，黄金价格创下新纪录。"
+      },
+      "2": {
+        "title": "GoldMint推出全新投资平台",
+        "excerpt": "GoldMint为黄金投资者推出了一个现代化平台，提供更高的安全性和透明度。"
+      },
+      "3": {
+        "title": "如何用黄金实现投资组合多元化",
+        "excerpt": "专家建议将黄金纳入投资组合，以对抗通胀和市场波动。"
+      },
+      "4": {
+        "title": "各国央行增加黄金储备",
+        "excerpt": "全球央行增加了黄金储备，显示出对贵金属作为避险资产的信心。"
+      },
+      "5": {
+        "title": "亚洲黄金首饰需求激增",
+        "excerpt": "受文化节日和收入增长推动，亚洲市场对黄金首饰的需求激增。"
+      },
+      "6": {
+        "title": "黄金VS加密货币：谁是更好的对冲工具？",
+        "excerpt": "分析师讨论黄金和加密货币在对抗通胀和市场波动方面谁更具优势。"
+      },
+      "7": {
+        "title": "GoldMint与顶级精炼厂合作",
+        "excerpt": "GoldMint宣布与全球领先的黄金精炼厂建立新合作，确保为投资者提供最高品质的产品。"
+      },
+      "8": {
+        "title": "可持续黄金开采实践日益增多",
+        "excerpt": "黄金开采行业正在采用更多可持续做法，以减少环境影响并改善社区关系。"
+      }
+    }
+  }
+} 

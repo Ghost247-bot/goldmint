@@ -1,0 +1,283 @@
+{
+  "header": {
+    "search": {
+      "placeholder": "Produkte suchen...",
+      "recentSearches": "Letzte Suchen",
+      "navigate": "Navigieren",
+      "select": "Enter zum Auswählen",
+      "close": "Esc zum Schließen"
+    },
+    "menu": {
+      "gold": "Gold",
+      "goldBars": "Goldbarren",
+      "goldCoins": "Goldmünzen",
+      "jewelry": "Schmuck",
+      "silver": "Silber",
+      "platinumPalladium": "Platin & Palladium",
+      "goldPrices": "Goldpreise",
+      "aboutUs": "Über Uns"
+    },
+    "user": {
+      "myAccount": "Mein Konto",
+      "myOrders": "Meine Bestellungen",
+      "wishlist": "Wunschliste",
+      "signIn": "Anmelden",
+      "createAccount": "Konto erstellen",
+      "trackOrder": "Bestellung verfolgen",
+      "logOut": "Abmelden"
+    }
+  },
+  "common": {
+    "home": "Startseite",
+    "back": "Zurück",
+    "goBack": "Zurückgehen",
+    "loading": "Wird geladen...",
+    "error": "Ein Fehler ist aufgetreten",
+    "noResults": "Keine Ergebnisse gefunden",
+    "tryAdjustingFilters": "Versuchen Sie, Ihre Filter anzupassen oder durchsuchen Sie unsere anderen Kategorien",
+    "backToHome": "Zurück zur Startseite",
+    "viewDetails": "Details anzeigen",
+    "productImage": "Produktbild",
+    "addToCart": "In den Warenkorb",
+    "price": "Preis",
+    "quantity": "Menge"
+  },
+  "account": {
+    "title": "Mein Konto",
+    "menu": {
+      "dashboard": "Dashboard",
+      "profile": "Mein Profil",
+      "investments": "Investitionen",
+      "orders": "Meine Bestellungen",
+      "wishlist": "Wunschliste",
+      "payment": "Zahlungsmethoden",
+      "addresses": "Adressen",
+      "security": "Sicherheit",
+      "settings": "Kontoeinstellungen",
+      "logout": "Abmelden"
+    }
+  },
+  "footer": {
+    "company": {
+      "description": "GoldMint ist Ihr vertrauenswürdiger Partner für Premium-Goldinvestitionen und bietet eine breite Palette an Goldprodukten, einschließlich Barren, Münzen und Schmuck."
+    },
+    "quickLinks": {
+      "title": "Schnelllinks",
+      "about": "Über Uns",
+      "goldPrices": "Goldpreise",
+      "contact": "Kontakt",
+      "blog": "Blog"
+    },
+    "customerService": {
+      "title": "Kundenservice",
+      "faq": "FAQ",
+      "shipping": "Versand & Lieferung",
+      "returns": "Rücksendungen & Rückerstattungen",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Allgemeine Geschäftsbedingungen"
+    },
+    "contact": {
+      "title": "Kontakt",
+      "phone": "+1 (234) 567-890",
+      "email": "info@goldmint.com",
+      "address": "123 Gold Avenue, Suite 100, New York, NY 10001"
+    },
+    "copyright": "Alle Rechte vorbehalten.",
+    "social": {
+      "facebook": "Facebook",
+      "twitter": "Twitter",
+      "instagram": "Instagram",
+      "linkedin": "LinkedIn"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Premium Goldinvestitionen",
+      "subtitle": "Ihr vertrauenswürdiger Partner für Edelmetalle seit 2025",
+      "imageAlt": "Goldbarren Hintergrund",
+      "cta": {
+        "primary": "Produkte Entdecken",
+        "secondary": "Mehr Erfahren"
+      }
+    },
+    "featured": {
+      "title": "Ausgewählte Produkte",
+      "subtitle": "Entdecken Sie unsere beliebtesten Goldanlagemöglichkeiten",
+      "viewAll": "Alle anzeigen"
+    },
+    "whyChoose": {
+      "title": "Warum GoldMint Wählen",
+      "subtitle": "Wir bieten Premium-Goldinvestitionen mit außergewöhnlichem Service und Sicherheit",
+      "features": {
+        "authentic": {
+          "title": "Authentische Produkte",
+          "description": "Alle unsere Goldprodukte sind zertifiziert authentisch mit verifizierter Reinheit"
+        },
+        "delivery": {
+          "title": "Sicherer Versand",
+          "description": "Vollständig versicherter Versand mit diskreter Verpackung und Tracking"
+        },
+        "payment": {
+          "title": "Sichere Zahlungen",
+          "description": "Mehrere Zahlungsoptionen mit fortschrittlicher Verschlüsselungssicherheit"
+        },
+        "investment": {
+          "title": "Intelligente Investition",
+          "description": "Expertenberatung und Marktanalysen für optimale Renditen"
+        }
+      }
+    },
+    "cta": {
+      "title": "Starten Sie Ihre Goldinvestitionsreise",
+      "subtitle": "Schließen Sie sich Tausenden zufriedener Anleger an, die GoldMint vertrauen",
+      "primary": "Produkte Entdecken",
+      "secondary": "Kontaktieren Sie Uns"
+    },
+    "goldPrice": {
+      "title": "Aktueller Goldpreis",
+      "history": "Preisentwicklung anzeigen"
+    },
+    "categories": {
+      "title": "Top-Kategorien",
+      "subtitle": "Entdecken Sie unsere beliebtesten Goldkategorien"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Über GoldMint",
+      "subtitle": "Ihr vertrauenswürdiger Partner für Premium-Goldinvestitionen seit 2025",
+      "imageAlt": "Goldbarren Hintergrund"
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Bei GoldMint setzen wir uns dafür ein, Goldinvestitionen für alle zugänglich, sicher und transparent zu machen. Wir verbinden jahrhundertelange Expertise in Edelmetallen mit moderner Technologie, um unseren Kunden die besten Goldprodukte und Anlagemöglichkeiten zu bieten."
+    },
+    "values": {
+      "title": "Unsere Kernwerte",
+      "trust": {
+        "title": "Vertrauen & Sicherheit",
+        "description": "Wir halten die höchsten Standards für Sicherheit und Authentizität bei jeder Transaktion ein"
+      },
+      "excellence": {
+        "title": "Exzellenz",
+        "description": "Wir streben nach Exzellenz in unseren Produkten, Dienstleistungen und Kundenbeziehungen"
+      },
+      "client": {
+        "title": "Kundenorientierung",
+        "description": "Der Erfolg und die Zufriedenheit unserer Kunden stehen im Mittelpunkt unseres Handelns"
+      }
+    },
+    "whyChoose": {
+      "title": "Warum GoldMint Wählen",
+      "experience": {
+        "title": "20+ Jahre Erfahrung",
+        "description": "Profitieren Sie von unseren Jahrzehnten an Expertise im Edelmetallmarkt"
+      },
+      "products": {
+        "title": "Premium Produkte",
+        "description": "Zugang zur besten Auswahl an Goldbarren, Münzen und Anlageprodukten"
+      },
+      "pricing": {
+        "title": "Transparente Preise",
+        "description": "Wettbewerbsfähige Preise ohne versteckte Gebühren oder Überraschungen"
+      }
+    },
+    "team": {
+      "title": "Unser Führungsteam",
+      "ceo": {
+        "name": "Michael Anderson",
+        "position": "Geschäftsführer",
+        "description": "25+ Jahre Erfahrung in Edelmetallen und Finanzmärkten"
+      },
+      "coo": {
+        "name": "Sarah Chen",
+        "position": "Leiterin Operations",
+        "description": "Expertin für Lieferkettenmanagement und operative Exzellenz"
+      },
+      "cto": {
+        "name": "David Martinez",
+        "position": "Technischer Leiter",
+        "description": "Führend in der Innovation digitaler Goldanlageplattformen"
+      }
+    },
+    "cta": {
+      "title": "Starten Sie Ihre Goldinvestitionsreise",
+      "subtitle": "Schließen Sie sich Tausenden zufriedener Anleger an, die GoldMint für ihre Edelmetallinvestitionen vertrauen",
+      "primary": "Unsere Produkte Entdecken",
+      "secondary": "Kontaktieren Sie Uns"
+    }
+  },
+  "product": {
+    "specifications": "Spezifikationen",
+    "details": "Produktdetails",
+    "weight": "Gewicht",
+    "purity": "Reinheit",
+    "dimensions": "Abmessungen",
+    "origin": "Herkunft",
+    "category": "Kategorie",
+    "availability": "Verfügbarkeit",
+    "inStock": "Auf Lager",
+    "outOfStock": "Nicht verfügbar",
+    "description": "Beschreibung",
+    "certification": "Zertifizierung",
+    "certificationText": "Alle unsere Goldprodukte sind zertifiziert und werden mit einem Echtheitszertifikat geliefert. Jedes Produkt wird auf seine Reinheit und sein Gewicht getestet und verifiziert.",
+    "relatedProducts": "Ähnliche Produkte",
+    "addToCart": "In den Warenkorb",
+    "buyNow": "Jetzt kaufen"
+  },
+  "categories": {
+    "bars": {
+      "title": "Goldbarren",
+      "description": "Premium-Goldbarren in verschiedenen Größen, perfekt für Investitionen und Sammlungen."
+    },
+    "coins": {
+      "title": "Goldmünzen",
+      "description": "Sammler- und Anlagemünzen aus Gold von renommierten Münzprägeanstalten weltweit."
+    },
+    "jewelry": {
+      "title": "Goldschmuck",
+      "description": "Exquisite Goldschmuckstücke, mit Präzision und Eleganz gefertigt."
+    }
+  },
+  "news": {
+    "title": "Neueste Nachrichten & Einblicke",
+    "subtitle": "Bleiben Sie auf dem Laufenden mit den neuesten Nachrichten, Trends und Einblicken aus dem Goldmarkt und von GoldMint.",
+    "readMore": "Mehr erfahren",
+    "notFound": "Nachrichtenartikel nicht gefunden",
+    "backToList": "Zurück zu den Nachrichten",
+    "items": {
+      "1": {
+        "title": "Goldpreise erreichen 2024 neue Höchststände",
+        "excerpt": "Der Goldpreis hat ein neues Rekordhoch erreicht, angetrieben durch globale wirtschaftliche Unsicherheit und gestiegene Nachfrage."
+      },
+      "2": {
+        "title": "GoldMint startet neue Investmentplattform",
+        "excerpt": "GoldMint stellt eine moderne Plattform für Goldanleger vor, die mehr Sicherheit und Transparenz bietet."
+      },
+      "3": {
+        "title": "So diversifizieren Sie Ihr Portfolio mit Gold",
+        "excerpt": "Experten empfehlen, Gold in Ihr Anlageportfolio aufzunehmen, um sich gegen Inflation und Marktschwankungen abzusichern."
+      },
+      "4": {
+        "title": "Zentralbanken erhöhen Goldreserven",
+        "excerpt": "Globale Zentralbanken haben ihre Goldreserven erhöht und zeigen damit Vertrauen in das Edelmetall als sicheren Hafen."
+      },
+      "5": {
+        "title": "Goldschmuck-Nachfrage in Asien steigt stark an",
+        "excerpt": "Die Nachfrage nach Goldschmuck ist in asiatischen Märkten gestiegen, angetrieben durch kulturelle Feste und steigende Einkommen."
+      },
+      "6": {
+        "title": "Gold vs. Kryptowährungen: Was ist der bessere Schutz?",
+        "excerpt": "Analysten diskutieren, ob Gold oder Kryptowährungen besseren Schutz vor Inflation und Marktschwankungen bieten."
+      },
+      "7": {
+        "title": "GoldMint kooperiert mit führender Raffinerie",
+        "excerpt": "GoldMint gibt eine neue Partnerschaft mit einer führenden Goldraffinerie bekannt, um höchste Produktqualität für Investoren zu gewährleisten."
+      },
+      "8": {
+        "title": "Nachhaltige Goldabbaupraktiken nehmen zu",
+        "excerpt": "Die Goldminenindustrie setzt zunehmend auf nachhaltige Praktiken, um Umweltauswirkungen zu reduzieren und die Beziehungen zu den Gemeinden zu verbessern."
+      }
+    }
+  }
+} 
